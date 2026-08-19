@@ -1,0 +1,361 @@
+ERC report (2026-08-19T05:42:20, Encoding UTF8)
+Report includes: Errors
+
+***** Sheet /
+[label_dangling]: Label not connected
+    ; error
+    @(4687 mils, 1371 mils): Label 'Type_C_VCC'
+[label_dangling]: Label not connected
+    ; error
+    @(4687 mils, 1765 mils): Label 'Type_C_GND'
+[label_dangling]: Label not connected
+    ; error
+    @(4687 mils, 2159 mils): Label 'Type_C_SDA'
+[label_dangling]: Label not connected
+    ; error
+    @(4687 mils, 2552 mils): Label 'Type_C_SCL'
+
+***** Sheet /Left/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-2150 mils, 6950 mils): Symbol J10 Pin SH [SHIELD, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1250 mils, 4550 mils): Symbol J10 Pin A5 [CC1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1250 mils, 4650 mils): Symbol J10 Pin B5 [CC2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1250 mils, 4850 mils): Symbol J10 Pin A7 [D-, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1250 mils, 5150 mils): Symbol J10 Pin B6 [D+, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1250 mils, 5350 mils): Symbol J10 Pin B10 [RX1-, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1250 mils, 5450 mils): Symbol J10 Pin B11 [RX1+, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1250 mils, 5650 mils): Symbol J10 Pin A3 [TX1-, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1250 mils, 5750 mils): Symbol J10 Pin A2 [TX1+, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1250 mils, 5950 mils): Symbol J10 Pin A10 [RX2-, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1250 mils, 6050 mils): Symbol J10 Pin A11 [RX2+, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1250 mils, 6250 mils): Symbol J10 Pin B3 [TX2-, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1250 mils, 6350 mils): Symbol J10 Pin B2 [TX2+, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1250 mils, 6550 mils): Symbol J10 Pin A8 [SBU1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1250 mils, 6650 mils): Symbol J10 Pin B8 [SBU2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(1100 mils, 1550 mils): Symbol A1 Pin 30 [RUN, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(1100 mils, 1650 mils): Symbol A1 Pin 37 [3V3_EN, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(1800 mils, 950 mils): Symbol A1 Pin 39 [VSYS, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(1800 mils, 950 mils): Symbol A1 Pin 39 [VSYS, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2000 mils, 950 mils): Symbol A1 Pin 40 [VBUS, Power output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2900 mils, 1950 mils): Symbol A1 Pin 21 [GPIO16, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2900 mils, 2050 mils): Symbol A1 Pin 22 [GPIO17, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2900 mils, 2150 mils): Symbol A1 Pin 24 [GPIO18, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2900 mils, 2250 mils): Symbol A1 Pin 25 [GPIO19, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2900 mils, 2350 mils): Symbol A1 Pin 26 [GPIO20, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2900 mils, 2450 mils): Symbol A1 Pin 27 [GPIO21, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2900 mils, 2550 mils): Symbol A1 Pin 29 [GPIO22, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2900 mils, 2750 mils): Symbol A1 Pin 35 [ADC_VREF, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(2900 mils, 2750 mils): Symbol A1 Pin 35 [ADC_VREF, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2900 mils, 2950 mils): Symbol A1 Pin 31 [GPIO26_ADC0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2900 mils, 3050 mils): Symbol A1 Pin 32 [GPIO27_ADC1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2900 mils, 3150 mils): Symbol A1 Pin 34 [GPIO28_ADC2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2900 mils, 3350 mils): Symbol A1 Pin 33 [AGND, Power output, Line]
+
+***** Sheet /Right/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-1200 mils, 6200 mils): Symbol J5 Pin SH [SHIELD, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-300 mils, 3800 mils): Symbol J5 Pin A5 [CC1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-300 mils, 3900 mils): Symbol J5 Pin B5 [CC2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-300 mils, 4100 mils): Symbol J5 Pin A7 [D-, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-300 mils, 4400 mils): Symbol J5 Pin B6 [D+, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-300 mils, 4600 mils): Symbol J5 Pin B10 [RX1-, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-300 mils, 4700 mils): Symbol J5 Pin B11 [RX1+, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-300 mils, 4900 mils): Symbol J5 Pin A3 [TX1-, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-300 mils, 5000 mils): Symbol J5 Pin A2 [TX1+, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-300 mils, 5200 mils): Symbol J5 Pin A10 [RX2-, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-300 mils, 5300 mils): Symbol J5 Pin A11 [RX2+, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-300 mils, 5500 mils): Symbol J5 Pin B3 [TX2-, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-300 mils, 5600 mils): Symbol J5 Pin B2 [TX2+, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-300 mils, 5800 mils): Symbol J5 Pin A8 [SBU1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(-300 mils, 5900 mils): Symbol J5 Pin B8 [SBU2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6700 mils, 3450 mils): Symbol U1 Pin 20 [INTA, Tri-state, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6700 mils, 3550 mils): Symbol U1 Pin 19 [INTB, Tri-state, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6700 mils, 3750 mils): Symbol U1 Pin 18 [~{RESET}, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(6700 mils, 3750 mils): Symbol U1 Pin 18 [~{RESET}, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6700 mils, 4250 mils): Symbol U1 Pin 15 [A0, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(6700 mils, 4250 mils): Symbol U1 Pin 15 [A0, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6700 mils, 4350 mils): Symbol U1 Pin 16 [A1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(6700 mils, 4350 mils): Symbol U1 Pin 16 [A1, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6700 mils, 4450 mils): Symbol U1 Pin 17 [A2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(6700 mils, 4450 mils): Symbol U1 Pin 17 [A2, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(7700 mils, 3450 mils): Symbol U1 Pin 27 [GPA6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(7700 mils, 3550 mils): Symbol U1 Pin 28 [GPA7, Output, Line]
+
+***** Sheet /Numpad/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(7650 mils, 2400 mils): Symbol U2 Pin 20 [INTA, Tri-state, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(7650 mils, 2500 mils): Symbol U2 Pin 19 [INTB, Tri-state, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(7650 mils, 2700 mils): Symbol U2 Pin 18 [~{RESET}, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(7650 mils, 2700 mils): Symbol U2 Pin 18 [~{RESET}, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(7650 mils, 3200 mils): Symbol U2 Pin 15 [A0, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(7650 mils, 3200 mils): Symbol U2 Pin 15 [A0, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(7650 mils, 3300 mils): Symbol U2 Pin 16 [A1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(7650 mils, 3300 mils): Symbol U2 Pin 16 [A1, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(7650 mils, 3400 mils): Symbol U2 Pin 17 [A2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(7650 mils, 3400 mils): Symbol U2 Pin 17 [A2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(8150 mils, 1600 mils): Symbol U2 Pin 9 [V_{DD}, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(8150 mils, 3600 mils): Symbol U2 Pin 10 [V_{SS}, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(8650 mils, 2300 mils): Symbol U2 Pin 26 [GPA5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(8650 mils, 2400 mils): Symbol U2 Pin 27 [GPA6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(8650 mils, 2500 mils): Symbol U2 Pin 28 [GPA7, Output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(8650 mils, 3200 mils): Symbol U2 Pin 6 [GPB5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(8650 mils, 3300 mils): Symbol U2 Pin 7 [GPB6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(8650 mils, 3400 mils): Symbol U2 Pin 8 [GPB7, Output, Line]
+
+***** Sheet /Macro_pad/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3900 mils, 2300 mils): Symbol U3 Pin 20 [INTA, Tri-state, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3900 mils, 2400 mils): Symbol U3 Pin 19 [INTB, Tri-state, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3900 mils, 2600 mils): Symbol U3 Pin 18 [~{RESET}, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(3900 mils, 2600 mils): Symbol U3 Pin 18 [~{RESET}, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3900 mils, 3100 mils): Symbol U3 Pin 15 [A0, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(3900 mils, 3100 mils): Symbol U3 Pin 15 [A0, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3900 mils, 3200 mils): Symbol U3 Pin 16 [A1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(3900 mils, 3200 mils): Symbol U3 Pin 16 [A1, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3900 mils, 3300 mils): Symbol U3 Pin 17 [A2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(3900 mils, 3300 mils): Symbol U3 Pin 17 [A2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(4400 mils, 3500 mils): Symbol U3 Pin 10 [V_{SS}, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4900 mils, 2100 mils): Symbol U3 Pin 25 [GPA4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4900 mils, 2200 mils): Symbol U3 Pin 26 [GPA5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4900 mils, 2300 mils): Symbol U3 Pin 27 [GPA6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4900 mils, 2400 mils): Symbol U3 Pin 28 [GPA7, Output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4900 mils, 3000 mils): Symbol U3 Pin 5 [GPB4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4900 mils, 3100 mils): Symbol U3 Pin 6 [GPB5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4900 mils, 3200 mils): Symbol U3 Pin 7 [GPB6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4900 mils, 3300 mils): Symbol U3 Pin 8 [GPB7, Output, Line]
+
+***** Sheet /Git_pad/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5350 mils, 2500 mils): Symbol U4 Pin 20 [INTA, Tri-state, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5350 mils, 2600 mils): Symbol U4 Pin 19 [INTB, Tri-state, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5350 mils, 2800 mils): Symbol U4 Pin 18 [~{RESET}, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5350 mils, 2800 mils): Symbol U4 Pin 18 [~{RESET}, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5350 mils, 3300 mils): Symbol U4 Pin 15 [A0, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5350 mils, 3300 mils): Symbol U4 Pin 15 [A0, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5350 mils, 3400 mils): Symbol U4 Pin 16 [A1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5350 mils, 3400 mils): Symbol U4 Pin 16 [A1, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5350 mils, 3500 mils): Symbol U4 Pin 17 [A2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5350 mils, 3500 mils): Symbol U4 Pin 17 [A2, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 2600 mils): Symbol U4 Pin 28 [GPA7, Output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 3500 mils): Symbol U4 Pin 8 [GPB7, Output, Line]
+
+ ** ERC messages: 113  Errors 113  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
