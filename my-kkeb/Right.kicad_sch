@@ -221,6 +221,302 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:RotaryEncoder_Switch"
 			(pin_names
 				(offset 0.254)
@@ -1620,7 +1916,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2459,6 +2755,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 118.11) (xy 182.88 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3080df6e-cecf-42f5-813a-03d4d97d20bc")
+	)
+	(wire
+		(pts
 			(xy 195.58 80.01) (xy 200.66 80.01)
 		)
 		(stroke
@@ -2499,16 +2805,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 120.65) (xy 182.88 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3719d4c2-ec3b-4df9-abae-c5dfa2fbc597")
-	)
-	(wire
-		(pts
 			(xy 232.41 104.14) (xy 232.41 100.33)
 		)
 		(stroke
@@ -2526,6 +2822,16 @@
 			(type default)
 		)
 		(uuid "3def19a4-232a-4edb-9c69-0f43162c3fc2")
+	)
+	(wire
+		(pts
+			(xy 182.88 50.8) (xy 182.88 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6cd363-ff1b-4353-87dd-0cd8fe940637")
 	)
 	(wire
 		(pts
@@ -2599,23 +2905,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 72.39) (xy 170.18 72.39)
+			(xy 158.75 72.39) (xy 160.02 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4d70448d-55d3-4dbb-bc1c-91e4b83d765a")
-	)
-	(wire
-		(pts
-			(xy 182.88 62.23) (xy 182.88 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "583aaa32-56c8-4350-b9ac-1cc43d5b3742")
 	)
 	(wire
 		(pts
@@ -2659,7 +2955,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 74.93) (xy 170.18 74.93)
+			(xy 158.75 74.93) (xy 160.02 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2686,6 +2982,16 @@
 			(type default)
 		)
 		(uuid "679b3f45-5e65-4f90-9424-b31e7929e9c8")
+	)
+	(wire
+		(pts
+			(xy 176.53 140.97) (xy 171.45 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a641b5-7319-427a-9aac-55b8ea0fdff6")
 	)
 	(wire
 		(pts
@@ -2716,6 +3022,16 @@
 			(type default)
 		)
 		(uuid "6ed9d76a-c4b6-4237-86bb-424afdb6296a")
+	)
+	(wire
+		(pts
+			(xy 176.53 151.13) (xy 171.45 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f770342-8cc8-4ab2-b6cd-2293e777e2bf")
 	)
 	(wire
 		(pts
@@ -2756,6 +3072,26 @@
 			(type default)
 		)
 		(uuid "7bc1749f-a360-4f3b-8243-529ff68a3365")
+	)
+	(wire
+		(pts
+			(xy 184.15 151.13) (xy 189.23 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce9b5f3-9c0f-484c-92bc-1c82ee649e5f")
+	)
+	(wire
+		(pts
+			(xy 167.64 74.93) (xy 170.18 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb7bdf8-a983-421c-ab82-28f10c51460d")
 	)
 	(wire
 		(pts
@@ -2969,6 +3305,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 72.39) (xy 170.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4fbc51d-1977-45a4-91eb-9d16a624f70d")
+	)
+	(wire
+		(pts
 			(xy 95.25 137.16) (xy 95.25 157.48)
 		)
 		(stroke
@@ -3156,6 +3502,16 @@
 			(type default)
 		)
 		(uuid "efe7045f-9f23-40e0-88b9-7e57a4d15e8c")
+	)
+	(wire
+		(pts
+			(xy 184.15 140.97) (xy 189.23 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fbde63-6c2c-4f0d-a7d1-ac634d34462a")
 	)
 	(wire
 		(pts
@@ -3422,7 +3778,7 @@
 	)
 	(hierarchical_label "Type_C_SDA"
 		(shape bidirectional)
-		(at 163.83 74.93 180)
+		(at 158.75 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3452,6 +3808,17 @@
 			(justify right bottom)
 		)
 		(uuid "3bb07d02-717e-469b-a313-a627e949dcd5")
+	)
+	(hierarchical_label "Type_C_VCC"
+		(shape bidirectional)
+		(at 171.45 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4de4d326-6ef5-4226-8d5d-3b3e7bd1f7d7")
 	)
 	(hierarchical_label "Type_C_GND"
 		(shape bidirectional)
@@ -3521,7 +3888,7 @@
 	)
 	(hierarchical_label "Type_C_VCC"
 		(shape bidirectional)
-		(at 182.88 62.23 90)
+		(at 182.88 50.8 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3576,7 +3943,7 @@
 	)
 	(hierarchical_label "Type_C_SCL"
 		(shape bidirectional)
-		(at 163.83 72.39 180)
+		(at 158.75 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3584,6 +3951,17 @@
 			(justify right bottom)
 		)
 		(uuid "c4f81ff5-2ac7-4fcb-9db4-285e88adcce1")
+	)
+	(hierarchical_label "Type_C_GND"
+		(shape bidirectional)
+		(at 189.23 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caa89d2d-2af0-4000-a3d6-36f08e464b2a")
 	)
 	(hierarchical_label "Type_C_GND"
 		(shape bidirectional)
@@ -3598,7 +3976,7 @@
 	)
 	(hierarchical_label "Type_C_GND"
 		(shape bidirectional)
-		(at 182.88 120.65 270)
+		(at 182.88 130.81 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3606,6 +3984,28 @@
 			(justify right bottom)
 		)
 		(uuid "da168cdd-5972-4ac7-9311-ef403e4ae886")
+	)
+	(hierarchical_label "Type_C_VCC"
+		(shape bidirectional)
+		(at 171.45 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "deca4aeb-40c3-4a60-9a1a-6c0423dda1aa")
+	)
+	(hierarchical_label "Type_C_GND"
+		(shape bidirectional)
+		(at 189.23 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e430f1bc-da92-4c12-a92a-13f826c7da54")
 	)
 	(hierarchical_label "Type_C_VCC"
 		(shape bidirectional)
@@ -3767,7 +4167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "CUSTOM:PogoMag_1x04_P2.54mm_RightAngle"
 			(at 246.38 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3957,7 +4357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 97.79 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4037,7 +4437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 111.76 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4117,7 +4517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 97.79 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4301,7 +4701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 124.46 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4485,7 +4885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 67.31 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4565,7 +4965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 82.55 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4645,7 +5045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 82.55 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4963,7 +5363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 97.79 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5006,6 +5406,86 @@
 			(project "my-kkeb"
 				(path "/77113db6-1d38-4df1-b14c-45d2c2f456b7/d49dc82e-2f6e-4683-91c4-7c8b03554038"
 					(reference "MX45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "421a85f7-91da-4119-94dc-fd7c64517eb4")
+		(property "Reference" "C2"
+			(at 180.34 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 180.34 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 180.34 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c1995813-fe63-4b33-8277-11e8e675cf1e")
+		)
+		(pin "1"
+			(uuid "653f0661-cd10-40eb-bb17-ea8d1d3e4dec")
+		)
+		(instances
+			(project "my-kkeb"
+				(path "/77113db6-1d38-4df1-b14c-45d2c2f456b7/d49dc82e-2f6e-4683-91c4-7c8b03554038"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5547,7 +6027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 67.31 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5627,7 +6107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 82.55 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -5915,7 +6395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 67.31 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5995,7 +6475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 67.31 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6179,7 +6659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 111.76 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6467,7 +6947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 67.31 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -6651,7 +7131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 82.55 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6731,7 +7211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 111.76 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6811,7 +7291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -6893,7 +7373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CUSTOM:USB_C_Receptacle_HRO_TYPE-C-31-M-12_4Pin"
+		(property "Footprint" "CUSTOM:USB_C_Receptacle_HRO_TYPE-C-31-M-12_4Pin_Fixed"
 			(at -16.51 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -6948,6 +7428,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 180.34 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97491ceb-d67e-41f0-9357-50c9e893b803")
+		(property "Reference" "C1"
+			(at 180.34 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 180.34 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 180.34 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6ae72ecd-f5d7-478a-a8ed-1a7ab7ee3991")
+		)
+		(pin "1"
+			(uuid "bb3787db-af25-46c8-9d6e-887b42c3e078")
+		)
+		(instances
+			(project "my-kkeb"
+				(path "/77113db6-1d38-4df1-b14c-45d2c2f456b7/d49dc82e-2f6e-4683-91c4-7c8b03554038"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 97.79 99.06 0)
 		(unit 1)
@@ -6979,7 +7539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 97.79 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7059,7 +7619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 111.76 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7243,7 +7803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 111.76 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7427,7 +7987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 111.76 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -7996,6 +8556,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 163.83 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c95662ce-4175-4d40-a075-2c091f3549de")
+		(property "Reference" "R3"
+			(at 163.83 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 163.83 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 163.83 74.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f033ff4-bbcc-46aa-b4ea-7076d88ce8da")
+		)
+		(pin "2"
+			(uuid "c909e5d6-169b-4a96-b151-fce6aaab7d22")
+		)
+		(instances
+			(project "my-kkeb"
+				(path "/77113db6-1d38-4df1-b14c-45d2c2f456b7/d49dc82e-2f6e-4683-91c4-7c8b03554038"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 69.85 125.73 90)
 		(unit 1)
@@ -8443,7 +9083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 67.31 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8627,7 +9267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 97.79 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -8707,7 +9347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 82.55 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8787,7 +9427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 97.79 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8867,7 +9507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 124.46 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8916,6 +9556,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 163.83 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eab60cd4-8d15-4fb5-9c06-b34463c8500b")
+		(property "Reference" "R4"
+			(at 163.83 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 163.83 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 163.83 76.708 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "98ea0dcf-233d-4a41-8391-dee9e25f5298")
+		)
+		(pin "1"
+			(uuid "55dc5da5-f085-4d01-88aa-48f8356d9ae3")
+		)
+		(instances
+			(project "my-kkeb"
+				(path "/77113db6-1d38-4df1-b14c-45d2c2f456b7/d49dc82e-2f6e-4683-91c4-7c8b03554038"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 124.46 119.38 0)
 		(unit 1)
@@ -8947,7 +9667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 124.46 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9428,7 +10148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 124.46 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9508,7 +10228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap"
 			(at 124.46 139.7 0)
 			(hide yes)
 			(show_name no)

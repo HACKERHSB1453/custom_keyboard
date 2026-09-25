@@ -70,7 +70,24 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|202050000|-106955676|F.Cu|4|961d4375-fee1-4483-968a-8e79e587146d|e9c453a1-d532-4137-9f02-e219570e49d2",
+          ""
+        ],
+        [
+          "unconnected_items|357187500|-126005676|F.Cu|4|3f437f50-b97b-4d5f-82bb-e85ba6edff41|605c4192-9781-4f24-b421-0da74844b2be",
+          ""
+        ],
+        [
+          "unconnected_items|404812500|-121243176|F.Cu|4|4d688f2b-8f68-45c1-a006-f981e1fdcbfb|674987c7-d996-456b-85e9-3891b353bb1b",
+          ""
+        ],
+        [
+          "unconnected_items|404812500|-123783176|F.Cu|4|eb279234-0944-4ff9-ac88-b49e419b95ab|3b9a4cc8-a3fe-4d4b-898d-cfbce1345eda",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -526,7 +543,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "my-kkeb.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -685,7 +702,7 @@
         "uuid": "77113db6-1d38-4df1-b14c-45d2c2f456b7"
       }
     ],
-    "used_designators": "SW1-4,J3-11,U2,U4-6,S1-6,MX59-83,MX97-112,D59-83,D97-112",
+    "used_designators": "R1-6,U7",
     "variants": []
   },
   "sheets": [

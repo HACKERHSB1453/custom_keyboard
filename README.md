@@ -26,3 +26,21 @@ August 19:
 -12AM-3AM: I kept doing the pcb, and finished the connections. I tried to use schematic hiererchy to organize it all. I hope I didnt mess it up. Here are some photos. ![alt text](image-4.png) ![alt text](image-5.png)
 -3AM-7AM: I fixed all the errors that didnt let me start the design of the PCB
 -10PM-12AM: I run the ERC and got 74 errors. And I spend the time fixing them.
+August 20:
+-12AM-5AM: I started designing the PCB completed positioning the two main parts of the keybaord and also added the diodes to the left half. Here is a photo: ![alt text](image-6.png)
+-10PM-12AM: I continued with the PCB placement
+August 21: 
+-12AM-5AM: I finished the placement of the compenents in the PCB
+-10PM-12AM: I continued started wiring the components
+-12AM-9AM: I finished the wiring of the right part, left part. And the numpad.![alt text](image-7.png)
+August 23: 
+-12AM-4AM: I finished wiring all the keybaord.
+August 28:
+-12AM-6AM: I started designing the case
+September 13:
+-12AM-2AM: I kept designing the case
+-2AM-7AM: I noticed that I had the kailh hotswap sockets in the wrong side of the board, so I had to basically rewire everything.
+September 20:
+-3PM-6PM: I kept designing everything, and finished the numpad.
+September 25:
+11AM-6PM: I finished the full case, and seperated it into different files. Here are some photos: ![alt text](image-8.png) ![alt text](image-9.png)
