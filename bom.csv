@@ -19,35 +19,35 @@ Plate - Numpad,1,,"Switch plate, 2 mm (1.5 mm at the switches)",JLC Black Resin 
 Case - small part,1,,Small part under the Left case,JLC Black Resin (SLA),case/Small_part/Case_small_part.step,JLC3DP,,,incl. in JLC order,File not in the repo yet: copy from ~/Shared/Keyboard_Models/print_parts/Small_part/
 JLC order (PCBs + cases + plates),1,,"Final checkout price: all 5 PCB designs and all printed parts above, incl. shipping and $39.63 VAT",,,JLCPCB / JLC3DP,,228.3,228.3,
 --- Electronics (from the schematic) ---,,,,,,,,,,
-Raspberry Pi Pico,1,A1,Microcontroller board,"Raspberry Pi Pico, USB-C variant (pin-compatible with the official Pico)",Module:RaspberryPi_Pico_Common_Unspecified,AliExpress,,,,Mounted on the back of the Left board
-I/O expander,4,U1-U4,16-bit I2C I/O expander,MCP23017-E/SO (SOIC-28),Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm,LCSC,,,,
-Diode,113,D1-D113,"Switching diode, through-hole",1N4148 (DO-35),Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,LCSC / AliExpress,,,,
-Hot-swap socket,113,MX1-MX113,MX hot-swap socket,Kailh CPG151101S11,CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap,AliExpress,,,,
-Resistor 2.2k,2,"R1, R2",I2C pull-up,"2.2 kOhm, 0603",Resistor_SMD:R_0603_1608Metric,LCSC,,,,
-Resistor 100,8,"R3, R4, R7-R12",I2C series resistor,"100 Ohm, 0603",Resistor_SMD:R_0603_1608Metric,LCSC,,,,
-Capacitor 100nF,4,"C1, C3, C5, C7",Decoupling,"100 nF, 0603",Capacitor_SMD:C_0603_1608Metric,LCSC,,,,
-Capacitor 10uF,4,"C2, C4, C6, C8",Bulk decoupling,"10 uF, 0805",Capacitor_SMD:C_0805_2012Metric,LCSC,,,,
-USB-C receptacle,2,"J5, J11","Link between the two halves (I2C + 3.3 V, not real USB)",HRO TYPE-C-31-M-12 (LCSC C165948),CUSTOM:USB_C_Receptacle_HRO_TYPE-C-31-M-12_4Pin_Fixed,LCSC,,,,
-Magnetic pogo connector,6,"J3, J4, J6, J7, J8, J9","4-pin magnetic pogo connector, 2.54 mm pitch, right angle, with ears",3 male + 3 female (mating pairs),CUSTOM:PogoMag_1x04_P2.54mm_RightAngle(_Mirror),AliExpress,,,,"J9, J8, J4 are one gender; J7, J6, J3 the other"
-Rotary encoder,4,SW1-SW4,Rotary encoder with push switch,Alps EC11E type (EC11 with switch),PCM_marbastlib-various:ROT_Alps_EC11E-Switch,AliExpress / LCSC,,,,
-OLED display,3,"U5, U6, U7","0.91 in 128x32 OLED, SSD1306, I2C","4 pins in order GND, VCC, SCL, SDA",Display:ER_OLEDM0.91_1x-I2C,AliExpress,,,,Pin order must be GND-VCC-SCL-SDA; usually comes with a 4-pin header
-Stabilizer 2u,3,"S1, S3, S5","2u stabilizer, PCB-mount","Cherry-style clip-in or screw-in, 2u",PCM_marbastlib-mx:STAB_MX_P_2u,AliExpress,,,,
+Raspberry Pi Pico,1,A1,Microcontroller board,"Raspberry Pi Pico, USB-C variant (pin-compatible with the official Pico)",Module:RaspberryPi_Pico_Common_Unspecified,Amazon.es (Enviado por Amazon),https://www.amazon.es/s?k=usb-c+raspberry+pi+pico+rp2040+compatible,9.40,9.40,Mounted on the back of the Left board; Must be the full-size 51x21 mm Pico form factor. NOT an RP2040-Zero (different pinout)
+I/O expander,4,U1-U4,16-bit I2C I/O expander,MCP23017-E/SO (SOIC-28),Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm,"TME (Poland, EU)",https://www.tme.eu/es/details/mcp23017-e_so/interfaces-otros-circuitos-integrados/microchip-technology/,1.70,6.80,
+Diode,113,D1-D113,"Switching diode, through-hole",1N4148 (DO-35),Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,"TME (Poland, EU)",https://www.tme.eu/es/katalog/?search=1N4148,0.03,4.40,Buy 150 (spares). Amazon.es 100-packs x2 also work (~$9)
+Hot-swap socket,113,MX1-MX113,MX hot-swap socket,Kailh CPG151101S11,CUSTOM:SW_MX_HS_CPG151101S11_1u_PinSwap,Amazon.es / KEYGEM / Keycapsss (EU),https://www.amazon.es/Intercambiable-Caliente-CPG151101S11-Teclado-Mec%C3%A1nico/dp/B096WZ6TJ5,0.175,21.00,Buy at least 120: a 110 pack is NOT enough for 113
+Resistor 2.2k,2,"R1, R2",I2C pull-up,"2.2 kOhm, 0603",Resistor_SMD:R_0603_1608Metric,"TME (Poland, EU)",https://www.tme.eu/es/katalog/?search=0603+2.2k,0.05,0.50,Estimate for a 10+ pack
+Resistor 100,8,"R3, R4, R7-R12",I2C series resistor,"100 Ohm, 0603",Resistor_SMD:R_0603_1608Metric,"TME (Poland, EU)",https://www.tme.eu/es/katalog/?search=0603+100R,0.05,0.50,Estimate for a 10+ pack
+Capacitor 100nF,4,"C1, C3, C5, C7",Decoupling,"100 nF, 0603",Capacitor_SMD:C_0603_1608Metric,"TME (Poland, EU)",https://www.tme.eu/es/katalog/?search=0603+100nF,0.05,0.50,Estimate for a 10+ pack
+Capacitor 10uF,4,"C2, C4, C6, C8",Bulk decoupling,"10 uF, 0805",Capacitor_SMD:C_0805_2012Metric,"TME (Poland, EU)",https://www.tme.eu/es/katalog/?search=0805+10uF,0.10,1.00,Estimate for a 10+ pack
+USB-C receptacle,2,"J5, J11","Link between the two halves (I2C + 3.3 V, not real USB)",HRO TYPE-C-31-M-12 (LCSC C165948),CUSTOM:USB_C_Receptacle_HRO_TYPE-C-31-M-12_4Pin_Fixed,Amazon.es,https://www.amazon.es/Conector-Pines-Hembra-r%C3%A1pida-Unidades/dp/B0848KV868,0.55,8.20,15-pack of 16-pin 7.35 x 8.94 mm clones of TYPE-C-31-M-12. Same body size; compare with the footprint before soldering
+Magnetic pogo connector,6,"J3, J4, J6, J7, J8, J9","4-pin magnetic pogo connector, 2.54 mm pitch, right angle, with ears",3 male + 3 female (mating pairs),CUSTOM:PogoMag_1x04_P2.54mm_RightAngle(_Mirror),Amazon.de / Amazon.es,https://www.amazon.de/Pogo-Pin-Anschluss-Magnetstecker-Durchgangsl%C3%B6cher-federbelastete-Steckverbinder-Schwarz/dp/B0CSX6GKCY,6.25,18.70,"J9, J8, J4 are one gender; J7, J6, J3 the other; 2 packs of '2 pairs curved 4P' = 4 pairs (3 used). CHECK the listing drawing: 19.9 x 4.2 mm body, magnets 13.54 mm apart"
+Rotary encoder,4,SW1-SW4,Rotary encoder with push switch,Alps EC11E type (EC11 with switch),PCM_marbastlib-various:ROT_Alps_EC11E-Switch,Amazon.es,https://www.amazon.es/WayinTop-Encoder-Codificador-Rotatorio-Interruptor/dp/B08728PS6N,2.10,10.50,"5-set, bare EC11 with push switch, knobs included"
+OLED display,3,"U5, U6, U7","0.91 in 128x32 OLED, SSD1306, I2C","4 pins in order GND, VCC, SCL, SDA",Display:ER_OLEDM0.91_1x-I2C,Amazon.es (AZDelivery),https://www.amazon.es/AZDelivery-Pantalla-Display-Pixeles-Parent/dp/B082MC4QJ4,3.30,16.40,Pin order must be GND-VCC-SCL-SDA; usually comes with a 4-pin header; 5-pack (the 3-pack is ~$13). AZDelivery pin order is GND-VCC-SCK-SDA
+Stabilizer 2u,3,"S1, S3, S5","2u stabilizer, PCB-mount","Cherry-style clip-in or screw-in, 2u",PCM_marbastlib-mx:STAB_MX_P_2u,Amazon.es (YMDK),https://www.amazon.es/Cherry-Style-OEM-Estabilizadores-interruptores/dp/B07CHLNKV8,9.40,9.40,"'60 set' = 4x 2u + 1x 6.25u, PCB-mount (matches the STAB_MX_P footprint)"
 --- Keys ---,,,,,,,,,,
-Switches,113,,MX-style switches,TBD,,TBD,,,,3-pin and 5-pin both fit (PCB has the 5-pin holes)
-Keycaps 1u,110,,"MX-stem keycaps, 1u",,,AliExpress,,,,
-Keycaps 2u,3,,"MX-stem keycaps, 2u",,,AliExpress,,,,
-Encoder knobs,4,,Knobs for EC11 encoders,Must match the encoder shaft (D-shaft or knurled),,AliExpress,,,,
+Switches,113,,MX-style switches,TBD,,Amazon.es,https://www.amazon.es/Glorious-switches-teclado-mec%C3%A1nico-Gateron/dp/B07CVQ7ZRL,0.42,50.00,3-pin and 5-pin both fit (PCB has the 5-pin holes); Buy 120: a 110 pack is NOT enough for 113
+Keycaps 1u,110,,"MX-stem keycaps, 1u",,,Amazon.es,https://www.amazon.es/s?k=xda+blank+keycaps+1u,0.28,31.00,Blank XDA or DSA (same height on every row). A normal 104-135 key set does NOT have 110 1u keys
+Keycaps 2u,3,,"MX-stem keycaps, 2u",,,Amazon.es,https://www.amazon.es/s?k=xda+2u+keycaps+blank,,2.00,Often included in a blank XDA set
+Encoder knobs,4,,Knobs for EC11 encoders,Must match the encoder shaft (D-shaft or knurled),,Amazon.es,,,0.00,Included with the WayinTop encoders
 --- Hardware ---,,,,,,,,,,
-Screw M2x6,35,,PCB to case (PCB-only positions),"M2 x 6 mm, pan head",,AliExpress,,,,Threaded holes are 5.5 mm deep: do NOT use M2x8 or longer here
-Screw M2x10,35,,Plate + PCB to case,"M2 x 10 mm, low-profile / button head (head max ~1.2 mm)",,AliExpress,,,,Do NOT use M2x12 (reaches the bottom of the hole)
-Spacer M2x3,35,,"Between plate and PCB, one per M2x10 screw","M2 x 3 mm round spacer, nylon, inner diameter 2.1-2.5 mm, outer diameter 3.5 mm max",,AliExpress,,,,"Not at Right (258.5,-111.5) or Git_pad (-228.5,-101): too close to a switch, use M2x6 there"
+Screw M2x6,35,,PCB to case (PCB-only positions),"M2 x 6 mm, pan head",,Amazon.es,https://www.amazon.es/s?k=tornillo+M2x6+ISO+7380+cabeza+boton,0.12,5.85,Threaded holes are 5.5 mm deep: do NOT use M2x8 or longer here; Buy a 50-pack
+Screw M2x10,35,,Plate + PCB to case,"M2 x 10 mm, low-profile / button head (head max ~1.2 mm)",,Amazon.es,https://www.amazon.es/s?k=tornillo+M2x10+ISO+7380+cabeza+boton,0.12,5.85,"Do NOT use M2x12 (reaches the bottom of the hole); ISO 7380 button head: head is 1.1 mm, fits the 1.2 mm limit. Buy a 50-pack"
+Spacer M2x3,35,,"Between plate and PCB, one per M2x10 screw","M2 x 3 mm round spacer, nylon, inner diameter 2.1-2.5 mm, outer diameter 3.5 mm max",,Amazon.es,https://www.amazon.es/s?k=tubo+PTFE+2x3mm,,5.85,"Not at Right (258.5,-111.5) or Git_pad (-228.5,-101): too close to a switch, use M2x6 there; Nylon M2 spacers in the EU are usually 4-5 mm OD. Alternative: cut 3 mm pieces of 2 x 3 mm PTFE tube (OD 3 mm, not conductive)"
 --- Cables ---,,,,,,,,,,
-USB-C to USB-C cable,1,,Short cable between the two halves (J5-J11),"USB-C to USB-C, short",,AliExpress,,,,"Never plug J5/J11 into a computer: they carry I2C, not USB"
-USB cable,1,,Pico to computer,Matches the Pico's connector (USB-C),,AliExpress,,,,
+USB-C to USB-C cable,1,,Short cable between the two halves (J5-J11),"USB-C to USB-C, short",,Amazon.es,https://www.amazon.es/s?k=cable+usb+c+a+usb+c+30cm,7.00,7.00,"Never plug J5/J11 into a computer: they carry I2C, not USB; Skip if you already own one"
+USB cable,1,,Pico to computer,Matches the Pico's connector (USB-C),,Amazon.es,https://www.amazon.es/s?k=cable+usb+c,7.00,7.00,Skip if you already own one
 --- Shipping ---,,,,,,,,,,
 Shipping - JLCPCB,1,,PCB shipping,,,JLCPCB,,,incl. in JLC order,
 Shipping - JLC3DP,1,,3D print shipping,,,JLC3DP,,,incl. in JLC order,
 Import VAT - JLC order,1,,"Spanish VAT (21%) on the JLC order, paid at checkout (DDP)",,,JLCPCB / JLC3DP,,,incl. in JLC order,"$39.63, already inside the $228.30 JLC order; VAT only, customs duty is $0"
-Shipping - parts,1,,Shipping for the other parts,,,AliExpress / LCSC,,,,
+Shipping - parts,1,,Shipping for the other parts,,,TME / Amazon,,,6.95,TME Standard Economy to Spain: EUR 4.90 + VAT. Amazon.es is free over EUR 35 on items 'Enviado por Amazon'
 --- Total ---,,,,,,,,,,
-TOTAL,,,,,,,,,,
+TOTAL,,,,,,,,,228.30 + ~229 (parts),Parts estimate (not case/PCB) is ~$229 in full vs $150 budget; see SOURCING.md for the cut-down plan
