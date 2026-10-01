@@ -79,43 +79,68 @@ I created the github repo.
 - **11:20PM-12AM:** I searched about encoreds and searched about how a MCP23017 works and how to use it. I also watched this video about it
 
 ### August 16 (3 h)
+- **12:20AM-1:50AM:** I created the kicad project and started adding the base thing like the swithes and the pi pico
 - **8PM-11PM:** I started designing the pcb.
+  - **8:15PM-9PM:** At this point i had the matrix of the right and left part, but it wasnt wired yet.
 
 ### August 17 (3 h 30 min)
+- **12:30AM-1:40AM:** kept drawing the switch matrix: D30-D58 and their switches
+- **3:20AM-3:50AM:** moved the whole matrix out of the main sheet into its own sheet called `left_part` and started using hierarchical schematic since it was for my case. I couldnt find much info online, but I managed to make it work
 - **7:30PM-11PM:** I continued with the PCB, I accidentally forgot to save the right part the day before and had to redo that. I also started organizsing thingsa and connect the two main parts. I also search about mousebites. And I decided to use it since the keybaord will be split in multiple parts.
 
 ### August 18 (2 h)
+- **4AM-4:10AM:** split `left_part` into two sheets, **Left** and **Right** (60 symbols each), and made an empty numpad sheet
 - **2:30PM-3:30PM:** I made some changes to the keyboard model.
 
   ![alt text](image-3.png)
+- **3PM-3:50PM:** filled the **Numpad** sheet: switches, diodes D59-D80 and its connector J3. Added SW2 to the Left sheet
 - **11PM-12AM:** I continued with the pcb
 
 ### August 19 (9 h)
-- **12AM-3AM:** I kept doing the pcb, and finished the connections. I tried to use schematic hiererchy to organize it all. I hope I didnt mess it up. Here are some photos.
+- **12AM-3AM:** I kept doing the pcb, and finished the connections. I tried to use schematic hiererchy to organize it all. I hope I didnt mess it up. In this period I basically added the Macro pad and the git pad. Here are some photos:
+  - **12AM-1AM:** made the **Macro_pad** sheet (diodes D81-D96, connectors J5, J7, J8) and an empty Git_pad sheet
+  - **2:25AM-3AM:** filled the **Git_pad** sheet (diodes D97-D112, connector J9)
 
   ![alt text](image-4.png)
   ![alt text](image-5.png)
 - **3AM-7AM:** I fixed all the errors that didnt let me start the design of the PCB
+  - **4:45AM-6:35AM:** first time the schematic was sent to the PCB editor: **247 footprints** appeared on the board. Replaced the old J1/J2 connectors with the two USB-C ports (J5 and J11)
 - **10PM-12AM:** I run the ERC and got 74 errors. And I spend the time fixing them.
+  - **11PM-11:40PM:** added labels on the Git_pad, Macro_pad, Numpad and Right sheets (the ERC fixing)
 
 ### August 20 (7 h)
 - **12AM-5AM:** I started designing the PCB completed positioning the two main parts of the keybaord and also added the diodes to the left half. Here is a photo:
+  - **12:45AM-4:50AM:** placed all 112 switches and the first 29 diodes on the Left board, and moved 31 parts to the back side. Removed an extra connector (J10)
 
   ![alt text](image-6.png)
 - **10PM-12AM:** I continued with the PCB placement
+  - **11PM-2:40AM:** placed all 112 diodes, the rest of the switches, the chips and the connectors (246 parts moved). Added the 113th key (MX113 and D113) to the Numpad
+
+*(Postdata: I messed up really bad here, because I thought that the kailh sockets had to go on the front of the plate, I had to fix that late one)*
 
 ### August 21 (16 h)
 - **12AM-5AM:** I finished the placement of the compenents in the PCB
 - **10PM-12AM:** I continued started wiring the components
 - **12AM-9AM:** I finished the wiring of the right part, left part. And the numpad.
+  - **4:20AM-5:50AM:** first wiring: 553 track pieces and 87 vias
+  - **7:15AM-9AM:** kept wigin and got up to **1,987 track pieces and 247 vias**
 
   ![alt text](image-7.png)
 
 ### August 23 (4 h)
 - **12AM-4AM:** I finished wiring all the keybaord.
+  - **1:20AM-5AM:** kept wiring and got from 1,987 to 2,514 track pieces, 324 vias
+- **7:45PM-8:10PM:** restored a backup from KiCad's history, then kept wiring
+- **9:45PM-10:30PM:** more wiring, up to **2,798 track pieces and 361 vias**
+
+### August 24
+- **2:30AM-3:30AM:** I added some ressistors and capacitators.
 
 ### August 28 (6 h)
 - **12AM-6AM:** I started designing the case
+
+### August 31
+- **1:20AM-6:30AM:** I hadded mountholes to the pcb. Run DRC again, got a bunch of problems I solved the,
 
 ### September 13 (7 h)
 - **12AM-2AM:** I kept designing the case
@@ -129,4 +154,4 @@ I created the github repo.
 
   ![alt text](image-8.png)
   ![alt text](image-9.png)
-![alt text](image-11.png)
+  ![alt text](image-11.png)
