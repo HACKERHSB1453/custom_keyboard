@@ -155,3 +155,6 @@ I created the github repo.
   ![alt text](image-8.png)
   ![alt text](image-9.png)
   ![alt text](image-11.png)
+
+### October 23:
+- **12AM-6:30PM** I finished the code of the keyboard. I didnt had the chance the test it yet since I dont have the keyboard. But I will probably check and fix it when I get the keyboard. I used python since I am kinda familiar with it. While coding it I noticed how it could have been much more simpler if I decided to use more microcontrollers instead of MCP23017 chips.
